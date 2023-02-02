@@ -8,6 +8,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 public class CheckUserUtil {
     private static final Logger log = getLogger(CheckUserUtil.class);
 
+
     public static String checkUser(String name) {
         String result = "Пользователя нет";
         Netapi32Util.User[] users = Netapi32Util.getUsers();

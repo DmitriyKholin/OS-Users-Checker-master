@@ -17,6 +17,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 public class ResultController {
     private static final Logger log = getLogger(ResultController.class);
 
+
     @GetMapping("/result")
     @Operation(summary = "View result")
     public String getResult(@RequestParam(name = "name", required = false, defaultValue = "user:emptyDefault")

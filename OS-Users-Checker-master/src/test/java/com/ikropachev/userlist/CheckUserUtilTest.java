@@ -19,3 +19,4 @@ public class CheckUserUtilTest {
         assertTrue("Пользователя нет".equals(result));
     }
 }
+
